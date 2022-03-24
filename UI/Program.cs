@@ -1,7 +1,6 @@
 ﻿using System;
 using LightInject;
 using System.Windows.Forms;
-using Presentation.Common.PresenterAbstractions;
 using Presentation.Common;
 using Presentation.Presenters;
 using Presentation.Views;
@@ -18,6 +17,7 @@ namespace UI
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -25,8 +25,10 @@ namespace UI
 
             container.Register<IMainFormView, FormMain>();
             container.Register<IPlantAFlowerFormView, FormPLantAFlower>();
+            container.Register<IHelpView, FormHelp>();
 
             container.Register<MainPresenter>(new PerContainerLifetime());
+            container.Register<HelpPresenter>(new PerContainerLifetime());
             container.Register<PlantAFlowerPresenter>();
 
             container.Register<ISelectionStateMediator, SelectionStateMediator>(new PerContainerLifetime());
