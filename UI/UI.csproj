@@ -71,51 +71,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FlowerViewControl.cs">
+    <Compile Include="FlowerView\FlowerViewControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="FlowerViewControl.Designer.cs">
+    <Compile Include="FlowerView\FlowerViewControl.Designer.cs">
       <DependentUpon>FlowerViewControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMain.cs">
+    <Compile Include="HelpView\FormHelp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMain.Designer.cs">
+    <Compile Include="HelpView\FormHelp.Designer.cs">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainView\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainView\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FormPlantAFlower.cs">
+    <Compile Include="PlantAFlowerView\FormPlantAFlower.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPlantAFlower.Designer.cs">
+    <Compile Include="PlantAFlowerView\FormPlantAFlower.Designer.cs">
       <DependentUpon>FormPlantAFlower.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FlowerViewControl.be-BY.resx">
+    <EmbeddedResource Include="FlowerView\FlowerViewControl.be-BY.resx">
       <DependentUpon>FlowerViewControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FlowerViewControl.resx">
+    <EmbeddedResource Include="FlowerView\FlowerViewControl.resx">
       <DependentUpon>FlowerViewControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FlowerViewControl.ru.resx">
+    <EmbeddedResource Include="FlowerView\FlowerViewControl.ru.resx">
       <DependentUpon>FlowerViewControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMain.be-BY.resx">
+    <EmbeddedResource Include="HelpView\FormHelp.be-BY.resx">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpView\FormHelp.resx">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpView\FormHelp.ru.resx">
+      <DependentUpon>FormHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainView\FormMain.be-BY.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMain.resx">
+    <EmbeddedResource Include="MainView\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMain.ru.resx">
+    <EmbeddedResource Include="MainView\FormMain.ru.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPlantAFlower.be-BY.resx">
+    <EmbeddedResource Include="PlantAFlowerView\FormPlantAFlower.be-BY.resx">
       <DependentUpon>FormPlantAFlower.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPlantAFlower.resx">
+    <EmbeddedResource Include="PlantAFlowerView\FormPlantAFlower.resx">
       <DependentUpon>FormPlantAFlower.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPlantAFlower.ru.resx">
+    <EmbeddedResource Include="PlantAFlowerView\FormPlantAFlower.ru.resx">
       <DependentUpon>FormPlantAFlower.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -243,6 +258,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="flower.ico" />
+    <None Include="Resources\help_by.txt" />
+    <None Include="Resources\help_eng.txt" />
+    <None Include="Resources\help_rus.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
