@@ -154,6 +154,39 @@
   <data name="red_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="str_help_by" xml:space="preserve">
+    <value>Вітаем у прыладзе Расцім кветачкі!
+Тут Вы.. Эм... Можаце расціць каеткі.. напэўна?
+
+У любым выпадку перш-наперш Вам трэба пасадзіць сваю першую кветку (Меню -&gt; Пасадзіць кветачку).
+Потым кветку варта паліць, каб яна пачала расці (Меню -&gt; Паліць кветкі). Розным відам кветак неабходна разная колькасць паліваў каб яны падраслі (Вам прыйдзецца вывучыць гэта самастойна...)!
+
+Адначасова у Вас можа быць толькі 3 расліны. Калі Вы жадаеце пасадзіць чацвёртую+ кветку, то Вам трэба выдаліць адну з тых што існуе (Меню -&gt; Выдаліць кветкі)
+
+Зроблена @attevinon &lt;3</value>
+  </data>
+  <data name="str_help_eng" xml:space="preserve">
+    <value>Welcome to Growing Flowers app!
+Here you can...Um.. growing flowers I guess?
+
+Anyway at first you should plant a flower (Menu -&gt; Plant new flower)! 
+The next step is to water your flower so it will start to grow (Menu -&gt; Water the flower)! There're different kinds of plants and some of them must be watered multiply times. (you have to learn it out on your own experience...)
+
+You can have only 3 flowers simultaneously. If you'd like to plant the 4th+ flower you have to delete one of those that already exists (Menu -&gt; Delete flowers)
+
+Made by @attevinon &lt;3</value>
+  </data>
+  <data name="str_help_ru" xml:space="preserve">
+    <value>Добро пожаловать в приложение Растим цветочки!
+Здесь Вы.. Эм... Можете растить цветы?.. наверное?
+
+В любом случае для начала Вам нужно посадить свой первый цветок (Меню -&gt; Посадить цветочек).
+Затем цветок следует полить, чтобы он вырос (Меню -&gt; Полить цветы). Разным видам цветов необходимо разное количесвто поливов для того, чтобы они подросли (Вам придётся изучить это самостоятельно...)!
+
+Одновременно у Вас может быть только 3 растения. Если Вы хотите посадить четвёртый+ цветок, то для Вам нужно удалить один из имеющихся (Меню -&gt; Удалить цветы)
+
+Сделано @attevinon &lt;3</value>
+  </data>
   <data name="violet_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\violet_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

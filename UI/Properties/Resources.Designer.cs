@@ -181,6 +181,51 @@ namespace UI.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Вітаем у прыладзе Расцім кветачкі!
+        ///Тут Вы.. Эм... Можаце расціць каеткі.. напэўна?
+        ///
+        ///У любым выпадку перш-наперш Вам трэба пасадзіць сваю першую кветку (Меню -&gt; Пасадзіць кветачку).
+        ///Потым кветку варта паліць, каб яна пачала расці (Меню -&gt; Паліць кветкі). Розным відам кветак неабходна разная колькасць паліваў каб яны падраслі (Вам прыйдзецца вывучыць гэта самастойна...)!
+        ///
+        ///Адначасова у Вас можа быць толькі 3 расліны. Калі Вы жадаеце пасадзіць чацвёртую+ кветку, то Вам трэба выдаліць адну з тых што існуе  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string str_help_by {
+            get {
+                return ResourceManager.GetString("str_help_by", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome to Growing Flowers app!
+        ///Here you can...Um.. growing flowers I guess?
+        ///
+        ///Anyway at first you should plant a flower (Menu -&gt; Plant new flower)! 
+        ///The next step is to water your flower so it will start to grow (Menu -&gt; Water the flower)! There&apos;re different kinds of plants and some of them must be watered multiply times. (you have to learn it out on your own experience...)
+        ///
+        ///You can have only 3 flowers simultaneously. If you&apos;d like to plant the 4th+ flower you have to delete one of those that already  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string str_help_eng {
+            get {
+                return ResourceManager.GetString("str_help_eng", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Добро пожаловать в приложение Растим цветочки!
+        ///Здесь Вы.. Эм... Можете растить цветы?.. наверное?
+        ///
+        ///В любом случае для начала Вам нужно посадить свой первый цветок (Меню -&gt; Посадить цветочек).
+        ///Затем цветок следует полить, чтобы он вырос (Меню -&gt; Полить цветы). Разным видам цветов необходимо разное количесвто поливов для того, чтобы они подросли (Вам придётся изучить это самостоятельно...)!
+        ///
+        ///Одновременно у Вас может быть только 3 растения. Если Вы хотите посадить четвёртый+ цветок, то для Вам нужно удал [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string str_help_ru {
+            get {
+                return ResourceManager.GetString("str_help_ru", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap violet_1 {
