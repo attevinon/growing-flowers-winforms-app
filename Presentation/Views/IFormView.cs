@@ -6,6 +6,5 @@ namespace Presentation.Views
     {
         void Show();
         void Close();
-        void ShowErrorMessage(string message);
     }
 }

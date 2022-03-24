@@ -9,5 +9,6 @@ namespace Presentation.Views
         int SelectedColor { get; set; }
         Array Colors { get; set; }
         Action PlantAFlower { get; set; }
+        void ShowErrorMessage(string message);
     }
 }

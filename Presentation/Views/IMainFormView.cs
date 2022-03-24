@@ -11,7 +11,8 @@ namespace Presentation.Views
         Action PlantAFlower { get; set; }
         Action WaterFlowers { get; set; }
         Action DeleteFlowers { get; set; }
-        void GetHelp();
+        Action GetHelp { get; set; }
+        void ShowErrorMessage(string message);
     }
 
 
