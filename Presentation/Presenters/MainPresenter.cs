@@ -21,6 +21,7 @@ namespace Presentation.Presenters
             View.WaterFlowers += () => UpdateMainSelectionState(SelectionState.Watering);
             View.DeleteFlowers += () => UpdateMainSelectionState(SelectionState.Deleting);
             View.CancelSelection += () => UpdateMainSelectionState(SelectionState.Default);
+            View.GetHelp += () => ShowHelp();
         }
         private void PlantAFlower()
         {
@@ -34,6 +35,11 @@ namespace Presentation.Presenters
             }
 
             Controller.Run<PlantAFlowerPresenter>();
+        }
+
+        private void ShowHelp()
+        {
+            Controller.Run<HelpPresenter>();
         }
 
         public void UpdateMainSelectionState(SelectionState state)
