@@ -1,6 +1,6 @@
 # Growing flowers (MVP WinForms app)
 ### 💻🌷 Are you patient enough to grow them all?
-This application was made as a practice in asynchronous programming and studying MVP pattern, but became something more... special
+This application was made as a practice in multithreading programming and studying MVP pattern, but became something more... special
 
 ## Tools
 
